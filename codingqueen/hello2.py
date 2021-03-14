@@ -1,31 +1,67 @@
-#파이썬 기초문제 arrange(1,11) mar7,2021
-#print("Marry's cosmestic")
-#print("C\\:Window")
-#print("a\nb","a\tb")
-#print("안녕하세요.\n만나서\t\t반갑습니다.")
-#print("오늘은", "일요일")
-#print("naver","kakao","sk","samsung", sep=':')
-#print("naver;kakao;sk;samsung")
-#print("first", end="");print("second")
-#print("first",end="");print("second",end="\n");print("third")
-#print(5/3)
+# url = "http://sharebook.kr"
+# a= url.split(".")
+# print(a)
 
-#파이썬 기초문제 arrange(11,21)
+# lang ="python"
+# lang[0]='P'
+# print(lang)
 
-# 시가총액 = 298000000000000
-# 현재가= 50000
-# PER =15.79
-# print(시가총액, type(시가총액))
-# print(현재가, type(현재가))
-# print(PER, type(PER))
+# string="asdfqwer123a"
+# a=string.replace('a','A')
+# print(a)
 
-# s="hello"
-# t="python"
-# print(s+"!", t)
 
-# print(2+2*3)
+# a=3
+# b=4
+# print(a+b)
 
-a=128
-print(type(a))
-a="132"
-print(type(a))
+# t1="python"
+# t2="java"
+# t= t1 +" "+ t2+ " "
+# print((t1+" "+ t2+" ")*3)
+# print(t *3)
+
+# n1="임수연"
+# a1=26
+# n2="정상철"
+# a2=30
+
+# print(f"이름: {n1} 나이:{a1}")
+
+# g_vest="5,969,782,550"
+# g_vest= g_vest.replace(",","")
+# print(g_vest)
+
+# a=int(g_vest)
+# print(a)
+
+# qnsrl = "2020/03(e) (IFRS연결)"
+# print(qnsrl[:7])
+
+# deta = "              삼성전자    "
+# deta= deta.strip()
+# print(deta)
+
+# BTC_KRW
+# ticker="BTC_KRW"
+# ticker= ticker.lower()
+# print(ticker)
+
+# file_name="qhrhtj.xls"
+# print(file_name.endswith(("xlsx","xls")))
+
+
+file_name ="2020qhrhtj. xlsx"
+print(file_name.startswith("20"))
+
+a= "hello world"
+print(a.split())
+
+ticker= "bct_krw"
+print(ticker.split('_'))
+
+deta="2020.05.01"
+print(deta.split("."))
+
+deta1="   039490            "
+print(deta1.rstrip())
