@@ -1,34 +1,13 @@
-# a = True
-# print(type(a))
-# a=3 ==5
-# print(a)
 
-# print(3<5)
-# print((3==3)and(4!=3))
 
-# print(3>=4)
+# 다음 경로를 출력하시오.
 
-# if 4<30:
-#     print("hello world")
+# "C:\Download\'hello'.py"
+# (단, 따옴표도 함께 출력한다.)
 
-# if 4<3:
-#     print("helloworld")
-# else:
-#     print("hi,there")
+print("\"C:\\\Download\\\'hello'.py\"")
 
-# if True:
-#     print("1")
-#     print("2")
-# else:
-#     print("3")
-# print("4")
 
-if True:
-    if False:
-        print("1")
-        print("2")
-    else:
-        print("3")
-else:
-    print("4")
-print("5")
+# print("Hello\nWorld") \n을 화면에 그대로 출력하려면 어떻게 해야될까?
+
+# print("Hello","/n","World")
