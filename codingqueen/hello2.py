@@ -1,13 +1,17 @@
+# print(a) 3줄 나오게 하는 방법
+# a=input("입력")
+# print(a)
+# print(a)
+# print(a)
+
+# # #날짜 거꾸로 나오게 하기()
+# y,m,d=input().split(".")
+# print(d,m,y,sep="-")
+
+# y,m,d=input().replace(".","-")
+# print(y,m,d)
 
 
-# 다음 경로를 출력하시오.
-
-# "C:\Download\'hello'.py"
-# (단, 따옴표도 함께 출력한다.)
-
-print("\"C:\\\Download\\\'hello'.py\"")
-
-
-# print("Hello\nWorld") \n을 화면에 그대로 출력하려면 어떻게 해야될까?
-
-# print("Hello","/n","World")
+a=input("입력")
+for i in range(3):
+    print(a)
