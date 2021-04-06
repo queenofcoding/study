@@ -1,17 +1,34 @@
-# print(a) 3줄 나오게 하는 방법
+
+
 # a=input("입력")
+# for i in range(3):
+#     print(a)
+
+# sum=0
+# for i in range(1,101):
+#     sum+=i
+# print(sum)
+
+# a=0
+# for i in range(2,100,2):
+#     a+=i
+
 # print(a)
-# print(a)
-# print(a)
 
-# # #날짜 거꾸로 나오게 하기()
-# y,m,d=input().split(".")
-# print(d,m,y,sep="-")
+# # += 기호 의미를 모르겠엄
 
-# y,m,d=input().replace(".","-")
-# print(y,m,d)
+# sum=0
+# a=input("숫자를 입력하세요.")
+# a=int(a)
+# for i in range(2,a+1,2):
+#     sum+=i
+# print(sum)
 
 
-a=input("입력")
-for i in range(3):
-    print(a)
+s=input("날짜를 입력하세요.")
+
+# print(s[0:2])
+# print(s[2:4])
+# print(s[4:])
+
+print(s[0:2],s[2:4],s[4:])
