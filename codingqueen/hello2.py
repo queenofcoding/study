@@ -25,10 +25,12 @@
 # print(sum)
 
 
-s=input("날짜를 입력하세요.")
+# s=input("날짜를 입력하세요.")
 
-# print(s[0:2])
-# print(s[2:4])
-# print(s[4:])
+# # print(s[0:2])
+# # print(s[2:4])
+# # print(s[4:])
 
-print(s[0:2],s[2:4],s[4:])
+# print(s[0:2],s[2:4],s[4:])
+
+
